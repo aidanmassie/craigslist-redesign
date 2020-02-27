@@ -1,0 +1,194 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top:30px;
+  margin: 0 auto 20px auto;
+}
+
+.location{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 3px;
+}
+
+.search{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  opacity: 50%;
+  padding-left: 2px;
+  padding-bottom: 90px;
+  display: inline-block;
+  
+}
+
+.mainNav {
+    display: block;
+    position: relative;
+  }
+  
+  .leftSide {
+    list-style: none;
+    float: left;
+  }
+  
+  .rightSide {
+    list-style: none;
+    float: right;
+  }
+  
+  .navItem {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 18px;
+  }
+
+.searchBox {
+    border: 1px solid #dfe1e5;
+    height: 50px;
+    border-radius: 24px;
+    width: 33%;
+    margin: 0 auto;
+  }
+
+.searchIcon {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #6960EC;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 27px;
+  background-size: 70%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+  .circle1{background-image:url("https://static.thenounproject.com/png/688003-200.png")}
+  .circle2{background-image:url("https://static.thenounproject.com/png/849343-200.png")}
+  .circle3{background-image:url("https://static.thenounproject.com/png/2473088-200.png")}
+  .circle4{background-image:url("https://static.thenounproject.com/png/2801037-200.png")}
+  .circle5{background-image:url("https://static.thenounproject.com/png/1826011-200.png")}
+  .circle6{background-image:url("https://static.thenounproject.com/png/1012174-200.png")}
+
+.sale{
+    margin-top: -228px;
+    margin-left: 180px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.community{
+    margin-top: -220px;
+    margin-left: 306.5px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.discussion{
+    margin-top: -228px;
+    margin-left: 435px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.housing{
+    margin-top: -96px;
+    margin-left: 180px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.jobs{
+    margin-top: -93px;
+    margin-left: 307px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.services{
+    margin-top: -91px;
+    margin-left: 435px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom:500px;
+}
+
+.topBar{
+  position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    bottom: -1em;
+    width: 100%;
+    left: 0;
+}
+
+.bottomBar{
+  position: absolute;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    bottom: -1em;
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-width: 713px){
+    .search{
+      font-size:12px;
+    }
+    .title{
+      font-size:16px;
+    }
+    .location{
+      font-size:12px;
+    }
+
+@media screen and (min-width: 320px){
+  .search{
+    font-size:8px;
+  }
+  .title{
+    font-size:12px;
+  }
+  .location{
+    font-size:8px;
+  }
+
+    
